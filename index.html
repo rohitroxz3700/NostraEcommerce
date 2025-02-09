@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Liter&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- <script src="./script.js"></script> -->
+</head>
+
+<body>
+    <div class="offers_bar">
+        <h2>Sign up and GET 20% OFF for your first Order</h2>
+        <h2 id="offersBar_close" style="cursor: pointer;">X</h2>
+    </div>
+
+    <div class="navbar">
+        <div class="navbar__title">
+            <h2>Nostra</h2>
+        </div>
+        <div class="navbar_menu__icon">
+            <i class="fa-solid fa-bars" style="color: #0d0d0d;"></i>
+        </div>
+        <div class="navbar__contents">
+            <p><a href="index.html">Home</a></p>
+            <p>New Arrival</p>
+            <p>Most Wanted</p>
+            <p><a href="./collections.html">Collections</a></p>
+            <p>Contact Us</p>
+        </div>
+    </div>
+
+    <div class="slider_images">
+        <div class="slider">
+            <div class="slider__container">
+                <div class="slider_images">
+                    <img class="slider_images_image" src="./slider-one.jpg" alt="">
+                </div>
+                <div class="slider_images">
+                    <img class="slider_images_image" src="./slider-two.jpg" alt="">
+                </div>
+                <div class="slider_images">
+                    <img class="slider_images_image" src="./slider-three.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="slider_images__text">
+            <h1>Level up your style with our</h1>
+            <p>Summer Collections</p>
+            <button>Shop now -></button>
+        </div>
+
+        <div class="slider_images__navigation">
+            <div class="slider_images__left">
+                <h1 style="cursor: pointer;" onclick="previousSlide()"><</h1>
+            </div>
+
+            <div class="slider_images__right">
+                <h1 style="cursor: pointer;" onclick="nextSlide()">></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="brands__title">
+            <h2>Brands</h2>
+        </div>
+
+        <div class="brands__images">
+            <div class="brands_logos">
+                <img src="./puma.png" alt="">
+                <p>Puma</p>
+            </div>
+
+            <div class="brands_logos">
+                <img src="./adidas.png" alt="">
+                <p>Adidas</p>
+            </div>
+
+            <div class="brands_logos">
+                <img src="./simple.png" alt="">
+                <p>Simple</p>
+            </div>
+
+            <div class="brands_logos">
+                <img src="./leaves.png" alt="">
+                <p>Leaves</p>
+            </div>
+
+            <div class="brands_logos">
+                <img src="./behance.png" alt="">
+                <p>Behance</p>
+            </div>
+
+            <div class="brands_logos">
+                <img src="./twitch.png" alt="">
+                <p>Twitch</p>
+            </div>
+
+            <div class="brands_logos">
+                <img src="./nike.png" alt="">
+                <p>Nike</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback_header">
+        <div class="feedback_header__1">
+            <h2>We Provide Best Customer Experiences</h2>
+        </div>
+
+        <div class="feedback_header__2">
+            <p>|| We ensure that our customers have the best shopping experience</p>
+        </div>
+    </div>
+
+    <div class="feedback_summary">
+        <div class="feedback_summary__1">
+            <h2><i class="fa-regular fa-circle-check" style="color: #0a0a0a;"></i></h2>
+            <h3>Original Products</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="feedback_summary__1">
+            <h2><i class="fa-regular fa-face-smile" style="color: #0f0f0f;"></i></h2>
+            <h3>Satisfaction Guarantee</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="feedback_summary__1">
+            <h2><i class="fa-solid fa-broom" style="color: #0d0d0d;"></i></h2>
+            <h3>New Arrivals Everyday</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="feedback_summary__1">
+            <h2><i class="fa-solid fa-truck-fast" style="color: #0d0d0d;"></i></h2>
+            <h3>Fast & Free Shipping</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+    <div class="new_arrivals">
+        <div class="new_arrivals__header">
+            <h2>New Arrivals</h2>
+        </div>
+
+        <div class="new_arrivals__footer">
+            <div class="new_arrivals__images">
+                <img src="f1.jpg" alt="">
+                <button>Shop Now-></button>
+            </div>
+            <div class="new_arrivals__images">
+                <img src="f2.jpg" alt="">
+                <button>Shop Now-></button>
+            </div>
+            <div class="new_arrivals__images">
+                <img src="f3.jpg" alt="">
+                <button>Shop Now-></button>
+            </div>
+            <div class="new_arrivals__images">
+                <img src="f4.jpg" alt="">
+                <button>Shop Now-></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="most_wanted">
+        <div class="most_wanted__header">
+            <h2>Most Wanted</h2>
+        </div>
+
+        <div class="most_wanted__footer">
+            <div class="most_wanted__images">
+                <img src="f5.jpg" alt="">
+                <button>sale-></button>
+                <!-- <h2><i class="fa-regular fa-heart" style="color: #0a0a0a;"></i></h2> -->
+            </div>
+            <div class="most_wanted__images">
+                <img src="f6.jpg" alt="">
+                <button>sale-></button>
+                <!-- <h2><i class="fa-regular fa-heart" style="color: #0a0a0a;"></i></h2> -->
+            </div>
+            <div class="most_wanted__images">
+                <img src="f7.jpg" alt="">
+                <button>sale-></button>
+                <!-- <h2><i class="fa-regular fa-heart" style="color: #0a0a0a;"></i></h2> -->
+            </div>
+            <div class="most_wanted__images">
+                <img src="f8.jpg" alt="">
+                <button>sale-></button>
+                <!-- <h2><i class="fa-regular fa-heart" style="color: #0a0a0a;"></i></h2> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="limited_offer">
+        <img src="offer.jpg" alt="">
+        <div class="limited_offer__text">
+            <h1>Limited Offer</h1>
+            <h2>35% OFF on this for the first 30 customers</h2>
+            <button>Shop now -></button>
+        </div>
+    </div>
+
+    <div class="joinNews_letter">
+        <h1>Join our News Letter</h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates and more</p>
+        <input type="text">
+        <button>Subscribe-></button>
+    </div>
+
+    <div class="nostra_footer">
+        <h2>Nostra</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <p>&copy; 2025 Nostra.com</p>
+    </div>
+
+    <script>
+        let currIdx = 0
+        let offerBarclose = document.getElementById("offersBar_close")
+        let offersBar = document.querySelector(".offers_bar")
+        offerBarclose.addEventListener("click", function () {
+            offersBar.classList.remove("offers_bar")
+            offersBar.classList.add("hidden")
+        })
+
+        function updateSlide() {
+            document.querySelector(".slider__container").style.transform = `translateX(${-currIdx * 1100}px)`
+        }
+
+        function previousSlide() {
+            if (currIdx > 0) {
+                currIdx--;
+                updateSlide();
+            }
+        }
+
+        function nextSlide() {
+            if (currIdx < 2) {
+                currIdx++;
+                updateSlide();
+            }
+        }
+    </script>
+</body>
+
+</html>
